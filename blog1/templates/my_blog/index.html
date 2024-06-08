@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'my_blog/css/blog.css' %}" />
+        <title>My Blog</title>
+    </head>
+    <body class="scroll">
+        <em><h1 style="font-size: 30px;">Welcome to my blog 😊</h1></em>
+        <pre style="font-size: 15px;"> 
+            My full name is Baxtiyorova Diyora and i am an enthusiastic girl who 
+                wants to learn more about techworld
+        </pre>
+        <div class="top">
+            <strong><h2 style="font-size: 20px;">Some facts about me</h2></strong>
+            <ul class="myli">
+                <li>I am interested in learning different programming languages</li>
+                <li>I study at INHA University</li>
+                <li>I like reading various types ofbooks</li>
+            </ul>
+         
+        </div>
+        <div class="pic">
+            <a href="#"><img height="250px" width="250px" src="https://i.pinimg.com/736x/7a/82/63/7a826324f3fbfa289beb27a7f24cbf94.jpg" alt="ladybug"></a>
+            <a href="#"><img height="250px" width="250px" src="https://i.pinimg.com/736x/36/77/f7/3677f79a8dd05241f26a85c2f84918a1.jpg" alt="super cat"></a>
+        </div>
+        <div class="t">
+            <strong><h2 style="font-size: 20px;">My programming skills</h2></strong>
+            <strong><h2 style="font-size: 20px;">My soft skills</h2></strong>
+        </div>
+        <div class="nl">
+            <ol class="myli">
+                <li>Python</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PostgreSQL</li>
+            </ol>
+            <ol>
+                <li>Leadership</li>
+                <li>Teamwork</li>
+                <li>Flexibility</li>
+                <li>Responsibility</li>
+                <li>Curiosity</li>
+            </ol>
+        </div>
+        <h2>You can visit this links for more info</h2>
+        <a href="https://t.me/b_diyora" target="_blank">Telegram</a><br>
+        <a href="https://www.instagram.com/_b_diyora/?next=%2F" target="_blank">Instagram</a><br>
+        <a href="https://github.com/Diyora00" target="_blank">Github</a><br>
+        <div class="d">
+            <form action="sending_details" method="post">
+                <h2 style="font-size: 20px;">If you want me to contact you fill in fomrs below</h2>
+                <label for="name" >Name :<input type="text" placeholder="Name"></label><br>
+                <label >Email :<input type="email" placeholder="Email"></label><br>
+                <label>Phone number :<input type="number" placeholder="Phone number"></label><br>
+                <br>
+                <button style="color:blueviolet;">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

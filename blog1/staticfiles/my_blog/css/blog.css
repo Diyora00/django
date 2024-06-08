@@ -1,0 +1,34 @@
+.top{
+    color: #3A0751;
+    text-align: center;
+}
+h1, h2, .t{
+    line-height: 1px;
+}
+h2{
+    color: #1000ca;
+}
+.myli{
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+.d{
+    background-color:bisque;
+    
+}
+.pic,.t,.nl{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:50px;
+    padding:10px;
+    }
+.nl{
+    gap:70px;
+    color: #681740;
+}
+.scroll{
+    background-color: #f9bcbd;
+    text-align: center;
+}
